@@ -1,0 +1,1 @@
+export function autoFocusout(e,t){const o=i=>i.stopPropagation();return setTimeout(()=>{e.addEventListener("click",o),window.addEventListener("click",t)}),{destroy(){e.removeEventListener("click",o),window.removeEventListener("click",t)}}}

@@ -1,0 +1,32 @@
+{
+  "name": "svelte-trello-app-snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "@snowpack/plugin-babel": "^2.1.4",
+    "@snowpack/plugin-dotenv": "^2.0.4",
+    "@snowpack/plugin-optimize": "^0.2.8",
+    "@snowpack/plugin-sass": "^1.1.1",
+    "@snowpack/plugin-svelte": "^3.3.0",
+    "autoprefixer": "^10.0.1",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "lodash": "^4.17.20",
+    "postcss": "^8.1.6",
+    "snowpack": "^2.17.0",
+    "sortablejs": "^1.12.0",
+    "svelte": "^3.29.4",
+    "uuid": "^8.3.1"
+  }
+}
